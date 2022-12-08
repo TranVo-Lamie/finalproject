@@ -37,12 +37,12 @@ html{
 
 }
 .navbar .logo a{
-  color: white;
+  color: black;
   font-size: 50px;
   font-weight: 600;
 }
 .navbar .logo a span{
-  color: rgb(253, 253, 253); 
+  color: rgb(255, 94, 0); 
   transition: all 0.3 ease;
 }
 
@@ -55,17 +55,17 @@ html{
   display: inline-block;
 }
 .navbar .menu li a{
-  color:rgb(255, 255, 255); 
+  color: rgb(255, 94, 0); 
   font-size: 20px;
   font-weight: 600;
   margin-left: 25px;
   transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-  color: rgb(255, 119, 0); 
+  color: black; 
 }
 .navbar.sticky .menu li a:hover{
-  color: rgb(255, 119, 0);
+  color: white;
 }
 
 /*menu btn styling*/
@@ -79,9 +79,9 @@ html{
 /*home section styling*/
 .home{
   display: flex;
-  background-image: url(../img/background.png)no-repeat center;
+  background-image: url(../img/background.png) no-repeat center;
   height: 100vh;
-  color: white;
+  color: rgb(0, 0, 0);
   min-height: 500px;
   font-family: 'Nunito',sans-serif;
   }
@@ -110,7 +110,7 @@ html{
 .home .home-content a{
   display: inline-block;
   background: rgb(255, 119, 0);
-  color: white;
+  color: black;
   font-size:  25px;
   padding: 12px 36px;
   margin-top: 20px;
